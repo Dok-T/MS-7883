@@ -1,0 +1,197 @@
+﻿#Messages
+Error=Error
+File not exist.=El archivo no existe o no se encuentra en la ubicación indicada.
+Data processing error. File may be corrupted or not supported.=Error procesando los datos. Archivo corrupto o no soportado.
+File type not recognized.=Tipo de archivo no reconocido.
+File "{0}.asc" not found.=Archivo "{0}.asc" no encontrado.
+{0} is under development.={0} se encuentra en desarrollo.
+
+#Menu
+File=Archivo
+Open=Abrir
+Exit=Salir
+View=Ver
+Board Outline=Borde de Tarjeta
+Pins=Pines
+Test Nails=Puntos de Prueba
+Vias=Pasadores
+Labels=Etiquetas
+Tooltip=Información Emergente en Boardview
+Flip Board Horizontally=Espejo a Tarjeta Horizontalmente
+Flip Board Vertically=Espejo a Tarjeta Verticalmente
+Options=Opciones
+Language=Idioma (Language)
+Remember Window Position=Recordar la Posición de la Ventana
+Help=Ayuda
+Check for Updates=Buscar Actualizaciones
+Report an Error=Reportar un Error
+Controls=Controles
+About Boardviewer=Acerca de Boardviewer
+
+#RecentFilesToolStripMenuItems
+Remove From List=Remover de la Lista
+
+#Tabs Names
+Main=Principal
+Boardview=Boardview
+Schematic=Esquemático
+Firmware=Firmware
+
+#Main Tab
+Recent Files=Archivos Recientes
+Search=Buscar
+Web=Web
+This PC=Ésta PC
+
+#Boardview Tab
+	#Nets and Parts Tabs
+Part=Parte
+Information about Selected Part=Información acerca de la parte seleccionada
+Net=Conexión
+List of Parts using Selected Net=Lista de partes que comparten la conexión seleccionada
+	#Nets and Part Grids
+//Top and Bottom abbr.
+T=S
+B=I
+//columnsNames
+RefDes=ReferenciaDescripción
+Info=Información
+Pin=Pin
+NetName=NombreConexión
+	#Boardview Toolstrip Buttons
+Rotate the board 90° anticlockwise=Rotar la Tarjeta 90° en Sentido Antihorario
+Rotate the board 90° clockwise=Rotar la Tarjeta 90° en Sentido Horario
+Zoom Out=Alejar
+Zoom to Fit=Ajustar a la ventana
+Zoom In=Acercar
+Undo=Deshacer
+Redo=Rehacer
+Top=Superior
+Show Top Side=Mostrar lado Superior
+Bottom=Inferior
+Show Bottom Side=Mostrar lado Inferior
+Parts:=Partes
+Show selected Part=Mostrar la parte seleccionada
+Highlight Part Names=Resaltar nombres de las partes
+Nets:=Conexiones
+	#Boardview Context Menu
+Flip Board=Espejear Tarjeta
+Rotate Clockwise=Rotar en Sentido Horario
+Rotate Anticlockwise=Rotar en Sentido Antihorario
+Close Board=Cerrar Tarjeta
+
+#OptionsForm
+	#General Tab
+General=General
+Use Only One Instance of Program (Open New Files in Same Window)=Usar únicamente una instancia del programa (Abrir nuevos archivos en la misma ventana)
+Warning! All another instances of program will be closed.=Precaución! Todas las otras instancias del programa se cerrarán.
+Program will be restarted.=El programa se reiniciará.
+Launch BoardViewer in Full Screen=Ejecutar BoardViewer en pantalla completa
+	#Graphics Tab
+Graphics=Gráficos
+Graphics Acceleration:=Aceleración de Gráficos
+GDI Quality:=Calidad GDI
+Use GDI mode if you have problems with Direct2D accelaration.=Use el modo GDI si tiene problemas con la aceleración Direct2D.
+	#Associations Tab
+Associations=Asociaciones
+Associated File Extensions with BoardViewer:=Asociaciones de extensión de archivo con BoardViewer:
+Select None=Desmarcar Todas
+Select All=Seleccionar Todas
+	#Network Tab
+Network=Red
+Update Modes:=Modos de Actualización
+Automatially install updates=Instalar actualizaciones automáticamente
+Check for updates, but let me choose whether to install them=Buscar actualizaciones, pero dejarme elegir cuándo instalarlas
+Never check for updates=No buscar actualizaciones
+
+#AboutForm
+Version=Versión
+
+#ControlsHelpForm
+Keyboard=Teclado
+Mouse=Ratón
+	#KeyboardTab
+ALT + F4=ALT + F4
+Close the program.=Cierra el programa.
+CTRL + O=CTRL + O
+Display the Open File dialog box. You can also open a file by dragging it into the BoardViewer window. For TSICT format, it will open a folder, too.=Muestra el archivo abierto en la caja de diálogo. También puede abrir un archivo arrastrándolo a la ventana de BoardViewer. Para formato TSICT, se debe abrir una carpeta también.
+ESC=ESC
+Close the currently opened BoardView file.=Cierra el archivo actualmente abierto de BoardView.
+A / W / D / S=A / W / D / S
+Move the mark '+' in the middle of the screen Left/Up/Right/Down.=Mueve la marca '+' al medio de la pantalla Izquierda/Arriba/Derecha/Abajo.
+Arrow Keys=FLECHAS
+Move the board Left/Up/Right/Down.=Mueve la tarjeta Izquierda/Arriba/Derecha/Abajo.
+SHIFT [hold]=SHIFT [presionado]
+Zoom the board area under the mark '+'.=Acerca la tarjeta bajo la marca '+'.
+E / Enter=E / Enter
+Select an element or a pin under mark '+' in the middle of the screen.=Selecciona un elemento o un pin bajo la marca '+' en el medio de la pantalla.
+CTRL [hold]=CTRL [presionado]
+Temporarily enable/disable highlighting of the part names.=Habilita/Deshabilita temporalmente el resaltado de los nombres de las partes.
+SPACE=BARRA ESPACIADORA
+Flip the board.=Pasa a mostrar el otro lado de la tarjeta.
+TAB=TABULADOR
+Switch Part/Net tabs.=Cambia entre las pestañas Partes/Conexiones.
+F=F
+Zoom the board to fit the window.=Acerca la tarjeta y la ajusta a la ventana.
++ / -=+ / -
+Zoom the board In/Out.=Acercamiento de la tarjeta (Acercar/Alejar).
+R=R
+Rotate the board clockwise.=Rota la tarjeta en sentido horario.
+, / .=, / .
+Rotate the board anticlockwise/clockwise.=Rota la tarjeta en sentido antihorario/horario.
+M=M
+Mirror the board. You can also mirror the board using the View menu.=Espejea (voltea) la tarjeta. También puede espejear la tarjeta usando el menú Vista.
+H=H
+Highlight part names. Use CTRL key to temporarily enable/disable highlighting.=Resalta los nombres de las partes. Use la tecla CTRL para habilitar/deshabilitar temporalmente el resaltado.
+	#MouseTab
+LEFT [click]=IZQUIERDO [click]
+Select a part or a pin under the cursor. If there's no elements under the cursor, it will deselect what is currently selected.=Seleciona una parte o un pin bajo el cursor. Si no hay elementos bajo el cursor, se desmarcarán los elementos actualmente seleccionados.
+LEFT [hold down and move]=IZQUIERDO [presionar y mover]
+Moves the board in any direction.=Mueve la tarjeta en cualquier dirección.
+RIGHT [hold down]=DERECHO [presionado]
+Quick zoom of the area under the cursor. After the button is released, the board will be displayed in the same positon as before. When you hold down the right button, you can use the left button and the wheel as usual.=Acercamiento rápido del área bajo el cursor. Después de soltar el botón, la tarjeta se mostrará en la posisión anterior. Cuando se mantiene el botón derecho presionado, se puede usar el botón izquierdo y la rueda de forma habitual.
+WHEEL [click]=RUEDA [click]
+WHEEL [scroll]=RUEDA [girar]
+
+
+#UpdateForm
+	#Buttons
+Next=Siguiente
+Update=Actualizar
+Cancel=Cancelar
+Finish=Finalizar
+Install Updates=Instalar actualizaciones
+Skip This Version=Saltar ésta versión
+	#Messages
+An error occurred=Ocurrió un error
+Update is Running=Actualización en curso
+A scheduled update is currently running.\r\nPlease wait for the current operation to finish.=Una actualización programada se encuentra en curso.\r\nPorfavor espere a que la actualización en curso termine.
+Status:=Estado:
+Searching for updates=Buscando actualizaciones
+Searching for updates to program. This process could take a few minutes.=Buscando Actualizaciones para programar. Éste proceso puede tomar algunos minutos.
+Unable to check for updates, the server file failed to load.=Imposible la búsqueda de actualizaciones, el servidor de archivos falló al intentar cargar el archivo.
+Processing server file=Procesando el archivo del servidor
+Server file is corrupted.=El archivo del servidor está corrupto.
+You already have the latest version=Ya posee la última versión
+Latest version already installed.\r\nRemember to check for new updates frequently.=La última versión ya se encuentra instalada.\r\nRecuerde buscar frecuentemente nuevas actualizaciones.
+Update Information=Información de la Actualización
+A new version of program is available!=Una nueva versión del programa está disponible!
+The current version of program is {0}. The latest version is {1}.=La versión actual del programa es {0}. LA última versión es {1}.
+Release Notes:=Notas del Lanzamiento:
+Downloading & Installing updates=Descargando e instalando las actualizaciones
+Downloading updates=Descargando actualizaciones
+Downloading updates. This process could take a few minutes.=Descargando actualizaciones. Éste proceso puede tomar algunos minutos.
+Download complete=Descarga completa
+All of the components were downloaded successfully.=Todos los componentes fueron descargados exitosamente.
+Not all required files were downloaded successfully, please try again later.=No todos los archivos requeridos fueron descargados exitosamente, porfavor intente después.
+Installing updates=Instalando actualizaciones
+Your needs administrative privileges to update program.=Necesita privilegios administrativos para actualizar el programa.
+Could not create backup directory.=No se pudo crear el directorio de respaldo.
+Rolling back files=Restaurando archivos.
+Trying to rollback updates.=Tratando de revertir las actualizaciones.
+An error occurred while copying for new files.=Ocurrió un error mientras se copiaban los nuevos archivos.
+Rollback fail.=Proceso de reversión fallido.
+Congratulations=Felicitaciones
+Update successful!=Actualización Exitosa!
+Program has been successfully updated.=El programa se ha actualizado exitosamente.
+Warning! Program will be restarted.=Advertencia! El programa se reiniciará.

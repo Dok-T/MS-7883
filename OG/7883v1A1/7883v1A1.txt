@@ -1,0 +1,20 @@
+-----------------------------------------------------------------------------------------------------
+X99A GODLIKE GAMING (BIOS : 7883v1A1 CheckSum: 21EA)
+-----------------------------------------------------------------------------------------------------
+
+1. This is AMI BIOS release
+
+2. This BIOS fixes the following problem of the previous version:
+-  Fixed that CPU can not overclock when system update to Widows10 (1903) with old micro code.
+
+3. 2019/6/25
+
+[Below information is Chinese language]
+
+A. AMI BIOS 正式發行
+
+B. 此版本修正下列問題:
+-  WINDOWS10 (1903)搭配舊的Micro Code造成 CPU 無法超頻.
+
+C. 更新日期: 公元2019年6月25號
+

@@ -1,0 +1,124 @@
+by DokT JJMMA 16/03/2024
+Bios Mod for MSI MS-7883 (X99A GODLIKE 2011-3)
+
+Based Bios: 7883v1A1.zip (https://download.msi.com/bos_exe/mb/7883v1A1.zip)
+AMIBCP 5.02.0031
+https://github.com/xCuri0/ReBarUEFI
+
+__________ 0.1 __________
+
+- Initial Release
+
+---[Added]--
+M.2 Mode 0471
+CPU PCI-E Lanes Control 0BDD
+USB Speed Optimization 
+--[End of Added menus]--
+
+- DokT Branded Bios
+
+
+__________ 0.2 __________
+
+
+- Updated Microcodes & Firmwares 
+
+╔═════════════════════════════════════════════╗
+║        MC Extractor v1.94.2 r277 Dev        ║
+╚═════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                       Intel                                       ║
+╟─┬─────────┬─────┬──────────────────┬────────┬──────────┬─────┬──────┬────────┬────╢
+║#│   Type  │CPUID│    Platforms     │Revision│   Date   │State│ Size │ Offset │Last║
+╟─┼─────────┼─────┼──────────────────┼────────┼──────────┼─────┼──────┼────────┼────╢
+║1│Microcode│306F2│ 6F (0,1,2,3,5,6) │   43   │2019-03-01│ PRD │0x8800│0xF08470│ No ║
+╟─┼─────────┼─────┼──────────────────┼────────┼──────────┼─────┼──────┼────────┼────╢
+║2│Microcode│406F1│EF (0,1,2,3,5,6,7)│B000036 │2019-03-02│ PRD │0x7800│0xF10C70│ No ║
+╟─┼─────────┼─────┼──────────────────┼────────┼──────────┼─────┼──────┼────────┼────╢
+║3│Microcode│406F0│EF (0,1,2,3,5,6,7)│   14   │2015-07-02│ PRD │0x7C00│0xF18470│Yes ║
+╟─┼─────────┼─────┼──────────────────┼────────┼──────────┼─────┼──────┼────────┼────╢
+║4│Microcode│306F1│EF (0,1,2,3,5,6,7)│80000013│2013-10-02│ PRE │0x8800│0xF20070│ No ║
+╚═╧═════════╧═════╧══════════════════╧════════╧══════════╧═════╧══════╧════════╧════╝
+
+╔═════════════════════════════════════════════╗
+║        MC Extractor v1.94.2 r277 Dev        ║
+╚═════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║                                      Intel                                       ║
+╟─┬─────────┬─────┬──────────────────┬────────┬──────────┬─────┬──────┬───────┬────╢
+║#│   Type  │CPUID│    Platforms     │Revision│   Date   │State│ Size │ Offset│Last║
+╟─┼─────────┼─────┼──────────────────┼────────┼──────────┼─────┼──────┼───────┼────╢
+║1│Microcode│406F1│EF (0,1,2,3,5,6,7)│B000040 │2021-05-19│ PRD │0x8C00│  0x18 │Yes ║
+╟─┼─────────┼─────┼──────────────────┼────────┼──────────┼─────┼──────┼───────┼────╢
+║2│Microcode│406F0│EF (0,1,2,3,5,6,7)│   14   │2015-07-02│ PRD │0x7C00│ 0x8C18│Yes ║
+╟─┼─────────┼─────┼──────────────────┼────────┼──────────┼─────┼──────┼───────┼────╢
+║3│Microcode│306F2│ 6F (0,1,2,3,5,6) │   49   │2021-08-11│ PRD │0x9800│0x10818│Yes ║
+╟─┼─────────┼─────┼──────────────────┼────────┼──────────┼─────┼──────┼───────┼────╢
+║4│Microcode│306F1│EF (0,1,2,3,5,6,7)│   14   │2014-01-10│ PRD │0x8800│0x1A018│Yes ║
+╚═╧═════════╧═════╧══════════════════╧════════╧══════════╧═════╧══════╧═══════╧════╝
+        [Current version]
+     EFI Intel RST VMD Driver    - 14.8.0.2377
+     OROM Intel RST for SATA     - 14.8.0.2377
+     OROM Intel RST for SATA     - 14.8.0.2377
+    
+    to
+
+        [Available version]
+     EFI Intel RST VMD Driver    - 14.8.2.2397
+     OROM Intel RST for SATA     - 14.8.2.2397
+
+
+
+     EFI Lx Killer Undi          - Outdated.NoNumber.
+     OROM Lx Killer E2xxx        - 2.1.1.5
+     OROM Lx Killer E2xxx        - 2.1.1.5
+     
+     to 
+     
+     EFI Lx Killer Undi          - 1.1.0.13
+     OROM Lx Killer E2xxx        - 2.1.1.5
+
+- [NEW] Custom CSM Bios Splash (1080p upgraded resolution!)
+
+
+
+__________ 0.3 __________
+
+Goals:
+
+- UEFI Csutom Logo (also 1080p) 0.3
+- Adding ResizeBar Support 0.3.3
+- Adding Hidden Menu into Overclocking Profiles (Pressing escape in the menu) 0.3.4
+- Custom UEFI setup logo 0.3.1
+- Custom Background in F11 Boot Menu 0.3.2
+
+-- 0.3 --
+
+- [Bug] UEFI setup logo
+- [Bug] Custom Background in F11 Boot Menu not showing
+
+-- 0.3.1 --
+
+
+- [PATCH] UEFI setup logo
+- [BUG] Custom Background in F11 Boot Menu not showing
+- [NEW] M-FLASH Disclaimer
+
+-- 0.3.2 --
+
+- [PATCHED] F11 boot menu patched (doesn't supprot FHD resolution)
+- Updated MOD version string
+- UEFI + Secure Boot enabled by default
+- Above 4G Decoding enabled by default (For ResizeBar full support comming next release)
+- Enabled AMT (for server usages)
+- Auto Power On when A/C is loss (Server usage)
+- [NEW]Added SLIC Table Controller 
+- Fast Boot enabled by Defualt
+
+-- 0.3.3 --
+
+- [NEW] Added ResizeBar 0.3 Support
+
+-- 0.3.4 -- 
+
+- [NEW] PCIe Bifurcation for IOU0 / IOU1 (4x4x4x4)

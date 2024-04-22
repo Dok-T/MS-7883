@@ -1,0 +1,12 @@
+========== setup.sct ==========
+
+Unsuppressed 0x2D3D8
+
+
+
+========== Section_PE32_image_AMITSE_AMITSE.sct ==========
+
+Settings | FormId 0x2718 -> Setup | FormId 0x2710
+
+
+
