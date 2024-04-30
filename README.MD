@@ -151,6 +151,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 - DokT
 - xCuri0 (ResizeBar - https://github.com/xCuri0/ReBarUEFI)
+- boringboredom - Online UEFI Editot https://boringboredom.github.io/UEFI-Editor/ https://github.com/BoringBoredom/UEFI-Editor
 - WInRaid Level1Tech Forum (https://winraid.level1techs.com/)
 - Eugene
 - Sweet_Kitten
