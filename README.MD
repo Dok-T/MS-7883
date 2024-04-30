@@ -38,11 +38,33 @@ It's important to note that before applying this mod, it's recommended to flash 
 
 
 
-### Original BIOS
+# Original BIOS
 - **Version**: 7883v1A1.zip
 - **Download Link**: [7883v1A1.zip](https://download.msi.com/bos_exe/mb/7883v1A1.zip)
 - **AMIBCP Version**: 5.02.0031
 - **ReSizeBar Source (PLEASE READ THE REBAR DOCUMENTATION IF YOU PLANNED TO USE IT)**: [ReBarUEFI](https://github.com/xCuri0/ReBarUEFI)
+
+# Updated Firmwares:
+
+CPU:
+
+| # | Type      | CPUID | Platforms          | Revision | Date       | State | Size  | Offset  | Last |
+|---|-----------|-------|--------------------|----------|------------|-------|-------|---------|------|
+| 1 | Microcode | 406F1 | EF (0,1,2,3,5,6,7) | B000040  | 2021-05-19 | PRD   | 0x8C00| 0x18    | Yes  |
+| 2 | Microcode | 406F0 | EF (0,1,2,3,5,6,7) | 14       | 2015-07-02 | PRD   | 0x7C00| 0x8C18  | Yes  |
+| 3 | Microcode | 306F2 | 6F (0,1,2,3,5,6)   | 49       | 2021-08-11 | PRD   | 0x9800| 0x10818 | Yes  |
+| 4 | Microcode | 306F1 | EF (0,1,2,3,5,6,7) | 14       | 2014-01-10 | PRD   | 0x8800| 0x1A018 | Yes  |
+
+Other:
+
+| EFI Lx Killer Undi | OROM Lx Killer E2xxx |
+|---------------------|----------------------|
+| 1.1.0.13            | 2.1.1.5              |
+|                     | 2.1.1.5              |
+
+| EFI Intel RST VMD Driver | OROM Intel RST for SATA |
+|---------------------------|-------------------------|
+| 14.8.2.2397               | 14.8.2.2397             |
 
 ## Changelog
 
