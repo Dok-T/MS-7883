@@ -148,4 +148,6 @@ This project is licensed under the [MIT License](LICENSE).
 - DokT
 - xCuri0 (ResizeBar - https://github.com/xCuri0/ReBarUEFI)
 - WInRaid Level1Tech Forum (https://winraid.level1techs.com/)
+- Eugene
+- Sweet_Kitten
 
