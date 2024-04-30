@@ -12,6 +12,18 @@ Please note that the M-Flash feature may not work as expected with Xeon processo
 Also, you might encounter issues with M-Flash while using a Xeon processor and/or experience difficulties saving changes and rebooting the BIOS. In such cases, you may need to save changes and reboot by using the "Save" function and pressing CTRL+ALT+DEL.
 IMPORTANT: it's essential to remove the Intel Xeon processor when using M-Flash, as it may not function correctly otherwise. Please be aware that this issue is a known bug with MSI and is not related to the modifications made by this BIOS mod (source: https://forum-en.msi.com/index.php?threads/cannot-enter-m-flash-on-x99a-gaming-7-with-bios-7885vhg-or-7885vhh2-with-cpu-xeon-1620v3.343307/)
 
+# **READ BEFORE FLASHING: BIOS Recovery and Reverting:**
+
+In the event that the BIOS update fails for any reason and the PC fails to boot, or if users wish to revert to the original BIOS, there are several methods available:
+
+- **Using M-Flash:** If the system still boots, users can utilize M-Flash to flash the original BIOS. Ensure to have a USB drive with the original BIOS file ready for this purpose.
+
+- **Using BIOS Switch:** If the system fails to boot entirely, users can use the BIOS switch located on the motherboard to switch to the second BIOS. Once switched, they can flash the primary BIOS using the secondary BIOS. After successful flashing, they can switch back to the primary BIOS.
+
+It's important to note that before applying this mod, it's recommended to flash both BIOS chips with the latest official BIOS version provided by MSI. This ensures compatibility and stability before applying any modifications.
+
+
+
 # **(weird) PCIe Hardware Limitations**
 
 - The MSI MS-7883 (X99A GODLIKE 2011-3) motherboard features 5 PCIe slots. However, only slots number 1 and 4 operate at full x16 speed, while the last slot (slot 5) operates at x8 speed.
