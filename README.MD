@@ -61,7 +61,7 @@ IMPORTANT: it's essential to remove the Intel Xeon processor when using M-Flash,
 - Updated MOD version string
 - UEFI + Secure Boot enabled by default
 - Above 4G Decoding enabled by default (For ResizeBar full support coming next release)
-- Enabled AMT (for server usages)
+- ~~Enabled AMT (for server usages)~~ (Found out it was not working even if i enable it. Maybe a patched/newer version of ME would make this work?)
 - Auto Power On when A/C is loss (Server usage)
 - [NEW] Added SLIC Table Controller
 - Fast Boot enabled by Default
