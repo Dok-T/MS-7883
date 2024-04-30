@@ -1,4 +1,4 @@
-by DokT JJMMA 16/03/2024
+by DokT (JJMMA 16/03/2024)
 Bios Mod for MSI MS-7883 (X99A GODLIKE 2011-3)
 
 Based Bios: 7883v1A1.zip (https://download.msi.com/bos_exe/mb/7883v1A1.zip)
@@ -122,3 +122,8 @@ Goals:
 -- 0.3.4 -- 
 
 - [NEW] PCIe Bifurcation for IOU0 / IOU1 (4x4x4x4)
+
+-- 0.3.5 -- 
+
+- [Fix] MOD revision patched
+- [WIP] Hidden men
