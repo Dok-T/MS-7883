@@ -10,7 +10,7 @@ WinRaid Level1Techs Original Post: https://winraid.level1techs.com/t/offer-msi-x
 
 ## Screenshots
 
-![UEFI_Boot](blob/main/Splash resc/CSM BOOT Splash/FHD/1080.jpeg)
+![UEFI_Boot](https://github.com/Dok-T/MS-7883/blob/main/Splash%20resc/CSM%20BOOT%20Splash/FHD/1080.jpeg?raw=true)
 
 # DISCLAIMER BEFORE / AFTER FLASHING:
 
