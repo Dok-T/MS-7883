@@ -6,6 +6,13 @@ This repository contains BIOS modifications for the MSI MS-7883 (X99A GODLIKE 20
 
 The MSI MS-7883 (X99A GODLIKE 2011-3) BIOS Mod project aims to improve the functionality and performance of the motherboard through various BIOS modifications. The project is based on the original BIOS version 7883v1A1.zip and utilizes AMIBCP version 5.02.0031, UEFITool 28 & NE and HxD Hex Editor.
 
+**Disclaimer:**
+
+Please note that the M-Flash feature may not work as expected with Xeon processors on the MSI MS-7883 (X99A GODLIKE 2011-3) motherboard. It is recommended to use an i5 or i7 processor to utilize M-Flash properly.
+Also, you might encounter issues with M-Flash while using a Xeon processor and/or experience difficulties saving changes and rebooting the BIOS. In such cases, you may need to save changes and reboot by using the "Save" function and pressing CTRL+ALT+DEL.
+IMPORTANT: it's essential to remove the Intel Xeon processor when using M-Flash, as it may not function correctly otherwise. Please be aware that this issue is a known bug with MSI and is not related to the modifications made by this BIOS mod (source: https://forum-en.msi.com/index.php?threads/cannot-enter-m-flash-on-x99a-gaming-7-with-bios-7885vhg-or-7885vhh2-with-cpu-xeon-1620v3.343307/)
+
+
 
 ### Original BIOS
 - **Version**: 7883v1A1.zip
@@ -76,9 +83,9 @@ The MSI MS-7883 (X99A GODLIKE 2011-3) BIOS Mod project aims to improve the funct
 
 Follow the steps below to install the modified BIOS:
 
-1. Download the original BIOS from the provided link.
+1. Download the original BIOS from the Releases link (https://github.com/Dok-T/MS-7883/releases).
 2. Apply the modifications provided in the respective version's changelog.
-3. Flash the modified BIOS to your MSI MS-7883 motherboard using the appropriate tools.
+3. Flash the modified BIOS to your MSI MS-7883 motherboard using M-FLASH.
 
 ## Disclaimer
 
