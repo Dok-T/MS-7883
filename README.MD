@@ -6,7 +6,6 @@ This repository contains BIOS modifications for the MSI MS-7883 (X99A GODLIKE 20
 
 The MSI MS-7883 (X99A GODLIKE 2011-3) BIOS Mod project aims to improve the functionality and performance of the motherboard through various BIOS modifications. The project is based on the original BIOS version 7883v1A1.zip and utilizes AMIBCP version 5.02.0031, UEFITool 28 & NE and HxD Hex Editor.
 
-Special thanks to Winraid Level1techs forum (https://winraid.level1techs.com/)
 
 ### Original BIOS
 - **Version**: 7883v1A1.zip
@@ -89,8 +88,9 @@ Follow the steps below to install the modified BIOS:
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contributors
+## Contributors / Specials Thanks
 
 - DokT
 - xCuri0 (ResizeBar - https://github.com/xCuri0/ReBarUEFI)
+- WInRaid Level1Tech Forum (https://winraid.level1techs.com/)
 
