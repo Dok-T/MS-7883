@@ -8,6 +8,10 @@ The MSI MS-7883 (X99A GODLIKE 2011-3) BIOS Mod project aims to improve the funct
 
 WinRaid Level1Techs Original Post: https://winraid.level1techs.com/t/offer-msi-x99a-godlike-gaming-rev-1-0-1-1-bios-mod-pcie-biffurcation/101333
 
+## Screenshots
+
+![UEFI_Boot](Splash resc/CSM BOOT Splash/FHD/1080.jpeg)
+
 # DISCLAIMER BEFORE / AFTER FLASHING:
 
 Please note that the M-Flash feature may not work as expected with Xeon processors on the MSI MS-7883 (X99A GODLIKE 2011-3) motherboard. It is recommended to use an i5 or i7 processor to utilize M-Flash properly.
