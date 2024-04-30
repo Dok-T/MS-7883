@@ -1,4 +1,3 @@
-```markdown
 # MSI MS-7883 (X99A GODLIKE 2011-3) BIOS Mod
 
 ## Introduction
@@ -93,6 +92,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contributors
 
 - DokT
-- JJMMA
-- xCuri0
-```
+- xCuri0 (ResizeBar - https://github.com/xCuri0/ReBarUEFI)
+
