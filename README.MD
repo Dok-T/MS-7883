@@ -30,7 +30,7 @@ IMPORTANT: it's essential to remove the Intel Xeon processor when using M-Flash,
 - **Version**: 7883v1A1.zip
 - **Download Link**: [7883v1A1.zip](https://download.msi.com/bos_exe/mb/7883v1A1.zip)
 - **AMIBCP Version**: 5.02.0031
-- **Source**: [ReBarUEFI](https://github.com/xCuri0/ReBarUEFI)
+- **ReSizeBar Source (PLEASE READ THE REBAR DOCUMENTATION IF YOU PLANNED TO USE IT)**: [ReBarUEFI](https://github.com/xCuri0/ReBarUEFI)
 
 ## Changelog
 
