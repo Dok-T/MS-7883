@@ -95,8 +95,8 @@ IMPORTANT: it's essential to remove the Intel Xeon processor when using M-Flash,
 
 Follow the steps below to install the modified BIOS:
 
-1. Download the original BIOS from the Releases link (https://github.com/Dok-T/MS-7883/releases).
-2. Apply the modifications provided in the respective version's changelog.
+1. Download the modded BIOS from the Releases link (https://github.com/Dok-T/MS-7883/releases).
+2. Format a USB drive (32gb MAX) in FAT32 and copy the file in the root of the USB drive
 3. Flash the modified BIOS to your MSI MS-7883 motherboard using M-FLASH.
 
 ## Disclaimer
