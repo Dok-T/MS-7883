@@ -22,6 +22,8 @@ IMPORTANT: it's essential to remove the Intel Xeon processor when using M-Flash,
 
 - With the mod, users can manually configure the PCIe lanes to split into 2x 8x by utilizing slots 1 and 2/3.
 
+![PCIe Guideline](PCIe_Guideline.jpg)
+
 
 
 ### Original BIOS
