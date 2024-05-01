@@ -11,7 +11,7 @@ WinRaid Level1Techs Original Post: https://winraid.level1techs.com/t/offer-msi-x
 ## Specials thanks 
 
 HUGE thanks to Sweet_Kitten (https://github.com/Maxinator500 and https://winraid.level1techs.com/u/Sweet_Kitten/summary)
-Thanks to him, this project is now finished and completed!
+Thanks to him, this project is now finished and completed, and thanks to the greatest community at Win-Raid forum!
 
 ## Screenshots
 
