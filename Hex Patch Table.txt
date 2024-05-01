@@ -1,0 +1,56 @@
+Un Hidden AMITSE list:
+
+
+
+18 27 0x2718 Settings
+19 27 0x2719 Advanced
+1a 27 0x271A Overclocking
+1b 27 0x271B M-FLASH
+1d 27 0x271D Security
+1c 27 0x271C OC Profiles
+1e 27 0x271E ECO
+
+
+
+IMAGE SETUP IFR list ("Ref: , " Dynamic menu listing): 
+
+
+
+0x2F054 				Ref: , VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x63, FormId: 0x287A {0F 0F 02 00 02 00 63 00 00 00 FF FF 00 7A 28}
+
+-> 0x287A 28 7A - ADVANCED --- MSI First original Advanced menu (BCP: Common RefCode Configuration -> Setup -> Settings -> Advanced) ---
+
+
+0x2F0D0 			Ref: , VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x66, FormId: 0x2859 {0F 21 02 00 02 00 66 00 00 00 FF FF 00 59 28 00 00 26 B9 8A DE DA EF 23 4C BB C4 98 FD 29 AA 00 69}
+
+-> 0x2859 59 28 - BOOT related -- (supress condition inside 0x2F069 	Form: Boot, FormId: 0x287B {01 86 7B 28 23 04}) (BCP: Common RefCode Configuration -> Setup -> Boot) --
+
+
+0x304D3 				Ref: , VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x84, FormId: 0x287D {0F 0F 02 00 02 00 84 00 00 00 FF FF 00 7D 28}
+
+-> 0x287D 28 7D - SAVE AND EXIT  --- MSI First original Save & Exit menu (BCP: Common RefCode Configuration -> Setup -> Settings -> Save & Exit) ---
+
+
+0x39A6C 			Ref: , VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x2F6, FormId: 0x2720 {0F 0F 02 00 02 00 F6 02 00 00 FF FF 00 20 27}
+
+-> 0x2720 20 27 - Advanced  --- HIDDEN Advanced menu (BCP: Common RefCode Configuration -> Setup -> Advanced) (empty) ---
+
+
+0x3ADF5 			Ref: , VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x322, FormId: 0x27CD {0F 0F 02 00 69 00 22 03 00 00 FF FF 00 CD 27}
+
+-> 0x27CD CD 27 - DRIVER HEALTH --- HIDDEN Driver Health menu (BCP: Common RefCode Configuration -> Setup -> Advanced -> Driver Health) (empty) ---
+
+
+0x3AE18 			Ref: , VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x323, FormId: 0x27CD {0F 0F 02 00 69 00 23 03 00 00 FF FF 00 CD 27}
+
+-> 0x27CD CD 27 - DRIVER HEALTH Sub Menu --- HIDDEN Driver Health sub menu (BCP: Common RefCode Configuration -> Setup -> Advanced -> Driver Health -> Driver Health) (empty) ---
+
+
+0x3CD49 			Ref: , VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x38B, FormId: 0x27CE {0F 0F 02 00 35 00 8B 03 00 00 FF FF 00 CE 27}
+
+-> 0x27CE CE 27 - BOOT --- HIDDEN Boot menu (BCP: Common RefCode Configuration -> Setup -> Boot) (empty) ---
+
+
+0x3CED4 			Ref: , VarStoreInfo (VarOffset/VarName): 0xFFFF, VarStore: 0x0, QuestionId: 0x396, FormId: 0x2724 {0F 0F 02 00 02 00 96 03 00 00 FF FF 00 24 27}
+
+-> 0x2724 24 27 - SAVE AND EXIT --- HIDDEN Save & Exit mmenu (BCP: Common RefCode Configuration -> Save & Exit) (empty) ---
