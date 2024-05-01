@@ -8,6 +8,11 @@ The MSI MS-7883 (X99A GODLIKE 2011-3) BIOS Mod project aims to improve the funct
 
 WinRaid Level1Techs Original Post: https://winraid.level1techs.com/t/offer-msi-x99a-godlike-gaming-rev-1-0-1-1-bios-mod-pcie-biffurcation/101333
 
+## Specials thanks 
+
+HUGE thanks to Sweet_Kitten (https://github.com/Maxinator500 and https://winraid.level1techs.com/u/Sweet_Kitten/summary)
+Thanks to him, this project is now finished and completed!
+
 ## Screenshots
 
 ![UEFI_Boot](https://github.com/Dok-T/MS-7883/blob/main/Splash%20resc/CSM%20BOOT%20Splash/FHD/1080.jpeg?raw=true)
