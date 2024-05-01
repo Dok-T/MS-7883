@@ -156,6 +156,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contributors / Specials Thanks
 
 - **Sweet_Kitten** **https://winraid.level1techs.com/u/sweet_kitten/summary**
+- https://github.com/Maxinator500
 - DokT (Discord BugDroid#3310)
 - xCuri0 (ResizeBar - https://github.com/xCuri0/ReBarUEFI)
 - boringboredom - Online UEFI Editot https://boringboredom.github.io/UEFI-Editor/ https://github.com/BoringBoredom/UEFI-Editor
