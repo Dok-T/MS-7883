@@ -71,9 +71,20 @@ Note / Other (not related to ROM file itself) :
 
 ![Main](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/Main.jpg?raw=true)
 
-![Unlocked](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/Unlocked.jpg?raw=true)
+![cpuz_mainboard.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/cpuz_mainboard.jpg?raw=true)
+![crystaldiskinfo_devmgmt.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/crystaldiskinfo_devmgmt.jpg?raw=true)
+![dxdiag.jpeg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/dxdiag.jpeg?raw=true)
+![hwinfo_summary.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/hwinfo_summary.jpg?raw=true)
+![IIO_PCIe.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/IIO_PCIe.jpg?raw=true)
+![M2_Mode.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/M2_Mode.jpg?raw=true)
+![nvme_bifurcation_hwinfo.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/nvme_bifurcation_hwinfo.jpg?raw=true)
+![OCProfiles_MOD.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/OCProfiles_MOD.jpg?raw=true)
+![PCIe_Bifurcation.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/PCIe_Bifurcation.jpg?raw=true)
+![PCIe_Bifurcation_Menu.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/PCIe_Bifurcation_Menu.jpg?raw=true)
+![SecureBoot.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/SecureBoot.jpg?raw=true)
+![Settings.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/Settings.jpg?raw=true)
+![Unlocked_IntelRCSetup.jpg](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/0.3.6/Unlocked_IntelRCSetup.jpg?raw=true)
 
-![IntelRCSetup](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/MSI_SnapShot_11.jpg?raw=true)
 
 ![ReBar](https://github.com/Dok-T/MS-7883/blob/main/MOD/Rebar.png?raw=true)
 
@@ -208,7 +219,13 @@ Added:
 
 ### Version 0.3.6
 
-- WIP / Final release soon!
+- Full IntelRCSetup Unlock
+- Fixed some strings & help
+- Fixed SecureBoot not active (even if it's enabled by default)
+- Updated mod revision & build date
+- Fully working "OC Profiles MOD" hidden menu (more stuff to play with!)
+
+NOTE: New screenshots added to this README.MD are from this version
 
 
 ##
