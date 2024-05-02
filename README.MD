@@ -32,7 +32,7 @@ If you see a bug / would like to add something / forgot to tell here what I modd
 - Custom F11 Boot menu background
 - "OC Profiles mod": acessing to more hidden settings by going to OC Profiles menu and pressing "escape" will bring hidden menu (not IntelRCSetup)
 - M-FLASH Warning text
-- Auto Power On when A/C is loss (for server server usage and make it HA)
+- Auto Power On when A/C is loss (for server usage and make it HA)
 - Unlocked option to enable SLIC Table Controller (not tested)
 - M.2 PCH/PCIe Strap settings unlocked
 - USB Speed Optimization settings unlocked
