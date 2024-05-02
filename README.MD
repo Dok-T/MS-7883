@@ -13,6 +13,55 @@ WinRaid Level1Techs Original Post: https://winraid.level1techs.com/t/offer-msi-x
 HUGE thanks to Sweet_Kitten (https://github.com/Maxinator500 and https://winraid.level1techs.com/u/Sweet_Kitten/summary)
 Thanks to him, this project is now finished and completed, and thanks to the greatest community at Win-Raid forum!
 
+## Main features 
+
+The last release is the version 0.3.6.
+If you see a bug / would like to add something / forgot to tell here what I modded or added, please report it via Issues at https://github.com/Dok-T/MS-7883/issues
+
+### Patchs / Features added:
+
+- Unlocked menu (IntelRCSetup and an other one)
+- Updated Microcodes (please see Updated Firmwares section)
+- Updated OROM Firmwares
+- Unlocked some hidden settings in regulars menus 
+- Boot by default using UEFI only and FastBoot
+- PCIe bifurcation made possible trough IntelRCSetup and more configuration under Settings -> Advanced -> PCI Subsystem Settings such as CPU PCI-E Lanes Control) **PLEASE READ PCIE HW LIMITATIONS SECTION !!!**
+- Above 4G Decoding enabled by default for Resize Bar working out of the box (after of course using the software provided by this repo for enabling this: https://github.com/xCuri0/ReBarUEFI/releases/download/0.3/ReBarState.exe)
+- Custom modernized UEFI/Legacy Boot Logo (1080p upscaled!! The original was shitty low resolution!)
+- Custom MSI Logo in the setup
+- Custom F11 Boot menu background
+- "OC Profiles mod": acessing to more hidden settings by going to OC Profiles menu and pressing "escape" will bring hidden menu (not IntelRCSetup)
+- M-FLASH Warning text
+- Auto Power On when A/C is loss (for server server usage and make it HA)
+- Unlocked option to enable SLIC Table Controller (not tested)
+- M.2 PCH/PCIe Strap settings unlocked
+- USB Speed Optimization settings unlocked
+- M.2 Mode Settings Unlocked
+- Secure Boot enabled by default (increase Windows 11 compatibility and Resize Bar) 
+- Some strings update
+
+Note / Other (not related to ROM file itself) : 
+- This repo contain the GIMP editable original files for the boot / uefi / boot menu pictures and also some related files used for this modding
+- Working with HBA / RAID card (the LSI UEFI menu is showing correctly!)
+- RAM might be picky sometimes, if you have error when running stress test / memetest please increase your DRAM voltage (max 1.35v)
+
+![Unlock_summary](Unlock_summary.jpg)
+
+
+### What works (confirmed working by myself) : 
+
+- Everything as usual
+- ResizeBar
+- PCIe Biffurcation
+
+
+### Know bugs / not tested :
+
+- Intel AMT not tested (Not tested. Seems legit as this is not an server chipset)
+- Xeon bug in UEFI/BIOS
+- you tell me  (lol)
+
+
 ## Screenshots
 
 ![UEFI_Boot](https://github.com/Dok-T/MS-7883/blob/main/Splash%20resc/CSM%20BOOT%20Splash/FHD/1080.jpeg?raw=true)
@@ -23,13 +72,13 @@ Thanks to him, this project is now finished and completed, and thanks to the gre
 
 ![ReBar](https://github.com/Dok-T/MS-7883/blob/main/MOD/Rebar.png?raw=true)
 
-# DISCLAIMER BEFORE / AFTER FLASHING:
+## DISCLAIMER BEFORE / AFTER FLASHING:
 
 Please note that the M-Flash feature may not work as expected with Xeon processors on the MSI MS-7883 (X99A GODLIKE 2011-3) motherboard. It is recommended to use an i5 or i7 processor to utilize M-Flash properly.
 Also, you might encounter issues with M-Flash while using a Xeon processor and/or experience difficulties saving changes and rebooting the BIOS. In such cases, you may need to save changes and reboot by using the "Save" function and pressing CTRL+ALT+DEL.
 IMPORTANT: it's essential to remove the Intel Xeon processor when using M-Flash, as it may not function correctly otherwise. Please be aware that this issue is a known bug with MSI and is not related to the modifications made by this BIOS mod (source: https://forum-en.msi.com/index.php?threads/cannot-enter-m-flash-on-x99a-gaming-7-with-bios-7885vhg-or-7885vhh2-with-cpu-xeon-1620v3.343307/)
 
-# **READ BEFORE FLASHING: BIOS Recovery and Reverting:**
+## **READ BEFORE FLASHING: BIOS Recovery and Reverting:**
 
 In the event that the BIOS update fails for any reason and the PC fails to boot, or if users wish to revert to the original BIOS, there are several methods available:
 
@@ -41,7 +90,7 @@ It's important to note that before applying this mod, it's recommended to flash 
 
 
 
-# **(weird) PCIe Hardware Limitations**
+## **(weird) PCIe Hardware Limitations**
 
 - The MSI MS-7883 (X99A GODLIKE 2011-3) motherboard features 5 PCIe slots. However, only slots number 1 and 4 operate at full x16 speed, while the last slot (slot 5) operates at x8 speed.
 
@@ -89,7 +138,7 @@ Other:
 
 - Initial Release
 
-#### Added
+Added:
 - M.2 Mode 0471
 - CPU PCI-E Lanes Control 0BDD
 - USB Speed Optimization
@@ -141,6 +190,21 @@ Other:
 
 - [Fix] MOD revision patched
 - [WIP] Hidden menu
+
+### Version 0.3.5 to 0.3.5b4
+
+- Tried to unlock the IntelRCSetup (no success tho, will not upload these here for obvious reasons: some result soft bricking) 
+
+### Version 0.3.5b5
+
+- Unlocked IntelRCSetup thanks to Sweet_Kitten (please see the credits!) (same, will not be released becaused unfished)
+
+### Version 0.3.6
+
+- WIP / Final release soon!
+
+
+##
 
 ## How to Install
 
