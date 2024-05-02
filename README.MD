@@ -39,7 +39,7 @@ If you see a bug / would like to add something / forgot to tell here what I modd
 - M.2 Mode Settings Unlocked
 - Secure Boot enabled by default (increase Windows 11 compatibility and Resize Bar) 
 - Some strings update
-- Enabled PCH thermal monitoring device (not tested)
+- Enabled PCH thermal monitoring device (tested)
 - **Fixed IOU Strings and Help (PCIe Bifurcation related) to match the correct slot of this motherboard!**
 
 Note / Other (not related to ROM file itself) : 
@@ -56,7 +56,7 @@ Note / Other (not related to ROM file itself) :
 - Everything as usual
 - ResizeBar
 - PCIe Biffurcation
-
+- PCH thermal monitoring
 
 ### Know bugs / not tested :
 
