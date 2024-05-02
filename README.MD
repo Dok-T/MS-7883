@@ -25,7 +25,7 @@ If you see a bug / would like to add something / forgot to tell here what I modd
 - Updated OROM Firmwares
 - Unlocked some hidden settings in regulars menus 
 - Boot by default using UEFI only and FastBoot
-- PCIe bifurcation made possible trough IntelRCSetup and more configuration under Settings -> Advanced -> PCI Subsystem Settings such as CPU PCI-E Lanes Control) **PLEASE READ PCIE HW LIMITATIONS SECTION !!!**
+- PCIe bifurcation made possible trough IntelRCSetup and more configuration under Settings -> Advanced -> PCI Subsystem Settings such as CPU PCI-E Lanes Control) **[PLEASE READ PCIE HW LIMITATIONS SECTION!!!](https://github.com/Dok-T/MS-7883/tree/main?tab=readme-ov-file#weird-pcie-hardware-limitations)**
 - Above 4G Decoding enabled by default for Resize Bar working out of the box (after of course using the software provided by this repo for enabling this: https://github.com/xCuri0/ReBarUEFI/releases/download/0.3/ReBarState.exe)
 - Custom modernized UEFI/Legacy Boot Logo (1080p upscaled!! The original was shitty low resolution!)
 - Custom MSI Logo in the setup
