@@ -39,6 +39,8 @@ If you see a bug / would like to add something / forgot to tell here what I modd
 - M.2 Mode Settings Unlocked
 - Secure Boot enabled by default (increase Windows 11 compatibility and Resize Bar) 
 - Some strings update
+- Enabled PCH thermal monitoring device (not tested)
+- **Fixed IOU String and Help (PCIe Bifurcation related) to match the correct slot of this motherboard!**
 
 Note / Other (not related to ROM file itself) : 
 - This repo contain the GIMP editable original files for the boot / uefi / boot menu pictures and also some related files used for this modding
