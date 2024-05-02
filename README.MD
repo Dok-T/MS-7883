@@ -70,6 +70,8 @@ Note / Other (not related to ROM file itself) :
 
 ![Unlocked](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/Unlocked.jpg?raw=true)
 
+![IntelRCSetup](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/MSI_SnapShot_11.jpg?raw=true)
+
 ![ReBar](https://github.com/Dok-T/MS-7883/blob/main/MOD/Rebar.png?raw=true)
 
 ## DISCLAIMER BEFORE / AFTER FLASHING:
