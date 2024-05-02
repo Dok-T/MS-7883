@@ -77,6 +77,8 @@ Note / Other (not related to ROM file itself) :
 
 ![ReBar](https://github.com/Dok-T/MS-7883/blob/main/MOD/Rebar.png?raw=true)
 
+![PCH_Temp](https://github.com/Dok-T/MS-7883/blob/main/Screenshots/PCH_Temp.jpg?raw=true)
+
 ## DISCLAIMER BEFORE / AFTER FLASHING:
 
 Please note that the M-Flash feature may not work as expected with Xeon processors on the MSI MS-7883 (X99A GODLIKE 2011-3) motherboard. It is recommended to use an i5 or i7 processor to utilize M-Flash properly.
