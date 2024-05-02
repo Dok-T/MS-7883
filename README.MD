@@ -15,7 +15,7 @@ Thanks to him, this project is now finished and completed, and thanks to the gre
 
 ## Main features 
 
-The last release is the version 0.3.6.
+The last release is the version 0.3.7.
 If you see a bug / would like to add something / forgot to tell here what I modded or added, please report it via Issues at https://github.com/Dok-T/MS-7883/issues
 
 ### Patchs / Features added:
@@ -57,11 +57,12 @@ Note / Other (not related to ROM file itself) :
 - ResizeBar
 - PCIe Biffurcation
 - PCH thermal monitoring
+- Xeon M-FLASH/Save&Exit in UEFI
 
 ### Know bugs / not tested :
 
 - Intel AMT not tested (Not tested. Seems legit as this is not an server chipset)
-- Xeon bug in UEFI/BIOS
+- ~~Xeon bug in UEFI/BIOS~~ **Patched in 0.3.7 thanks to Sweet_Kitten**
 - you tell me  (lol)
 
 
@@ -227,6 +228,9 @@ Added:
 
 NOTE: New screenshots added to this README.MD are from this version
 
+### Version 0.3.7
+
+- Fixed the Xeon bug in BIOS/M-FLASh (BIOS freeze when asked to be rebooted such as Save & Exit or going to M-FLASH) thanks to Sweet_Kitten
 
 ##
 
