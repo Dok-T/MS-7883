@@ -44,6 +44,7 @@ Note / Other (not related to ROM file itself) :
 - This repo contain the GIMP editable original files for the boot / uefi / boot menu pictures and also some related files used for this modding
 - Working with HBA / RAID card (the LSI UEFI menu is showing correctly!)
 - RAM might be picky sometimes, if you have error when running stress test / memetest please increase your DRAM voltage (max 1.35v)
+- This repo also include the PDF schematics for both 1.0 and 1.1 with theirs CAD file for viewing it with BoardViewer (also included!). This help understanding things for this mod, and repair this board if needed!
 
 ![Unlock_summary](Unlock_summary.jpg)
 
