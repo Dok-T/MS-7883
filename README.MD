@@ -18,6 +18,14 @@ Thanks to him, this project is now finished and completed, and thanks to the gre
 The last release is the version 0.3.7.
 If you see a bug / would like to add something / forgot to tell here what I modded or added, please report it via Issues at https://github.com/Dok-T/MS-7883/issues
 
+## Crossflashing / Other boards compatible with this BIOS Mod:
+
+- MSI X99A GODLIKE Carbon (to be confirmed, should be 100% compatible)
+- MSI X99A-SLI (booted, no bricked, waiting more for more tests) (thanks to jncwinner / https://winraid.level1techs.com/t/request-unlock-intelrcsetup-in-msi-x99a-sli/37317/25?u=dokt )
+
+If you can test crossflashing, please report it to me if you successfully flashed this bios into your board.
+
+
 ### Patchs / Features added:
 
 - Unlocked menu (IntelRCSetup and an other one)
