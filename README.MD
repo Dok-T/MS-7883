@@ -9,7 +9,7 @@ The MSI MS-7883 (X99A GODLIKE 2011-3) BIOS Mod project aims to improve the funct
 WinRaid Level1Techs Original Post: https://winraid.level1techs.com/t/offer-msi-x99a-godlike-gaming-rev-1-0-1-1-bios-mod-pcie-biffurcation/101333
 
 **UPDATE 08/24/2024**
-Since the 0.3.7 I made, i use this version 24/7 in my server with PCIe bifurcation enabled, running TrueNas Scale without any issue. This is considered as Stable IMO.
+Since the 0.3.7 I made, i use this version 24/7 in my server with PCIe bifurcation enabled, running TrueNas Scale without any issues. This is considered as Stable IMO.
 
 ## Specials thanks 
 
