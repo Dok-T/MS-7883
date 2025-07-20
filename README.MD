@@ -267,6 +267,40 @@ NOTE: New screenshots added to this README.MD are from this version
 
 - Fixed the Xeon bug in BIOS/M-FLASh (BIOS freeze when asked to be rebooted such as Save & Exit or going to M-FLASH) thanks to Sweet_Kitten
 
+### Version 0.4.1 (v0.4.1_RC)
+### SATA
+- ✅ **Enabled Hot Plug for sSATA + SATA**  
+  Allows drives to be connected/disconnected while the system is running.
+- ✅ **Enabled AHCI LPM (Link Power Management) for SATA + sSATA**  
+  Enables power-saving modes for SATA drives (partial/slumber states).
+
+### CPU
+- ✅ **Enabled xTPR**  
+  Enables xTPR Message Disable, useful for virtualization.
+- ✅ **Enabled SMX (Safer Mode Extensions)**  
+  Enable Safer Mode Extensions CPU Instruction
+- ✅ **Enabled X2APIC**  
+  Extended APIC mode for better multiprocessor performance.
+- ✅ **Enabled SMM Save State**  
+  Improves power management and system compatibility.
+- ✅ **Enabled Targeted SMI**  
+  Optimized system management interrupts in multi-socket setups.
+
+### RAM
+- ✅ **Fully Unlocked Memory Options**  
+  Unlocks hidden RAM settings: timings, training, RTL/IOL tuning, etc.
+
+### Other
+- ✅ **SLIC Enabled**  
+  Adds OEM SLIC 2.1/2.3 table for automatic Windows activation (e.g., Windows 7 Pro).
+- ✅ **Enabled Wake-on-LAN (WoL)**  
+  Allows the system to be powered on remotely via network.
+- ✅ **Updated BIOS Strings & Help Descriptions**  
+  Improved text and descriptions in BIOS UI.
+- ✅ **Updated BIOS Revision & Build Date**  
+  Clear versioning for the modified BIOS.
+
+
 ##
 
 ## How to Install
