@@ -8,6 +8,30 @@ The MSI MS-7883 (X99A GODLIKE 2011-3) BIOS Mod project aims to improve the funct
 
 WinRaid Level1Techs Original Post: https://winraid.level1techs.com/t/offer-msi-x99a-godlike-gaming-rev-1-0-1-1-bios-mod-pcie-biffurcation/101333
 
+**NEW UPDATE: 07/20/2025**
+## 🧪 BIOS ECC Test Report – v0.4.1_RC
+
+## ECC Support Status
+
+
+The ECC memory menu is currently **unlocked in BIOS**, but support is still **experimental and under testing**.  
+At the moment, ECC appears to be **non-functional**, as indicated by the following `dmesg` log excerpt:
+
+```
+EDAC sbridge: CPU SrcID #0, Ha #0, Channel #0 has DIMMs, but ECC is disabled
+EDAC sbridge: Couldn't find mci handler
+EDAC sbridge: Failed to register device with error -19.
+```
+
+### ✅ Working RAM Configurations:
+- ✅ **2Rx8** and **1Rx8** **RDIMM** modules are recognized and work reliably.
+- ❌ **2Rx4** and **1Rx4** **RDIMM** modules are **not supported and not working**.
+- ❌ **LRDIMM** modules do **not work** at all.
+
+> **Tested with:**  
+Intel Xeon E5-2683 v4 + Samsung 2Rx8 16GB x8  
+Module ref: `M393A2K43CB2-CVF` (total 128 GB)
+
 **UPDATE 08/24/2024**
 Since the 0.3.7 I made, i use this version 24/7 in my server with PCIe bifurcation enabled, running TrueNas Scale without any issues. This is considered as Stable IMO.
 
