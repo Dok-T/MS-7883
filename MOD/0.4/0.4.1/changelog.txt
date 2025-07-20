@@ -1,0 +1,142 @@
+SETUP GUID: 899407D7-99FE-43D8-9A21-79EC328CAC21
+========== Body_Section_Freeform_subtype_GUID_setupdata_setupdata_AMITSESetupData_body.bin ==========
+
+  Hot Plug | QuestionId 0x85: Failsafe 00 -> 01
+  Hot Plug | QuestionId 0x85: Optimal 00 -> 01
+  Hot Plug | QuestionId 0x8B: Failsafe 00 -> 01
+  Hot Plug | QuestionId 0x8B: Optimal 00 -> 01
+  Hot Plug | QuestionId 0x92: Failsafe 00 -> 01
+  Hot Plug | QuestionId 0x92: Optimal 00 -> 01
+  Hot Plug | QuestionId 0x98: Failsafe 00 -> 01
+  Hot Plug | QuestionId 0x98: Optimal 00 -> 01
+  Hot Plug | QuestionId 0x9E: Failsafe 00 -> 01
+  Hot Plug | QuestionId 0x9E: Optimal 00 -> 01
+  Hot Plug | QuestionId 0xA4: Failsafe 00 -> 01
+  Hot Plug | QuestionId 0xA4: Optimal 00 -> 01
+  Hot Plug | QuestionId 0xBE: Failsafe 00 -> 01
+  Hot Plug | QuestionId 0xBE: Optimal 00 -> 01
+  Hot Plug | QuestionId 0xC4: Failsafe 00 -> 01
+  Hot Plug | QuestionId 0xC4: Optimal 00 -> 01
+  Hot Plug | QuestionId 0xCA: Failsafe 00 -> 01
+  Hot Plug | QuestionId 0xCA: Optimal 00 -> 01
+  Hot Plug | QuestionId 0xD0: Failsafe 00 -> 01
+  Hot Plug | QuestionId 0xD0: Optimal 00 -> 01
+Enforce POR | QuestionId 0xC31: Access Level 09 -> 05
+PPR Type | QuestionId 0xC32: Access Level 09 -> 05
+PPR Error Injection test | QuestionId 0xC33: Access Level 09 -> 05
+Memory Frequency | QuestionId 0xC34: Access Level 09 -> 05
+Memory Frequency | QuestionId 0xC35: Access Level 09 -> 05
+DDR3 Voltage Level | QuestionId 0xC36: Access Level 09 -> 05
+MRC Promote Warnings | QuestionId 0xC37: Access Level 09 -> 05
+Promote Warnings | QuestionId 0xC38: Access Level 09 -> 05
+Halt on mem Training Error | QuestionId 0xC39: Access Level 09 -> 05
+Multi-Threaded MRC | QuestionId 0xC3A: Access Level 09 -> 05
+ECC Support | QuestionId 0xC3B: Access Level 09 -> 05
+Enforce Timeout | QuestionId 0xC3C: Access Level 09 -> 05
+Enhanced Log Parsing | QuestionId 0xC3D: Access Level 09 -> 05
+BSSA Module Loader | QuestionId 0xC3E: Access Level 09 -> 05
+Backside RMT | QuestionId 0xC3F: Access Level 09 -> 05
+Rank Multiplication | QuestionId 0xC40: Access Level 09 -> 05
+LRDIMM Module Delay | QuestionId 0xC41: Access Level 09 -> 05
+MemTest | QuestionId 0xC42: Access Level 09 -> 05
+MemTestLoops | QuestionId 0xC43: Access Level 09 -> 05
+Dram Maintenance Test | QuestionId 0xC44: Access Level 09 -> 05
+Dram Maintenance Test Direction | QuestionId 0xC45: Access Level 09 -> 05
+Dram Maintenance Test Invertion | QuestionId 0xC46: Access Level 09 -> 05
+Dram Maintenance Test Repetitions | QuestionId 0xC47: Access Level 09 -> 05
+Dram Maintenance Test Interation on Row | QuestionId 0xC48: Access Level 09 -> 05
+Dram Maintenance Swizzle enabling | QuestionId 0xC49: Access Level 09 -> 05
+Dram Maintenance Refresh enabling during test | QuestionId 0xC4A: Access Level 09 -> 05
+Memory Type | QuestionId 0xC4B: Access Level 09 -> 05
+CECC WA CH Mask | QuestionId 0xC4C: Access Level 09 -> 05
+Rank Margin Tool | QuestionId 0xC4D: Access Level 09 -> 05
+RMT Pattern Length | QuestionId 0xC4E: Access Level 09 -> 05
+CMD Pattern Length | QuestionId 0xC4F: Access Level 09 -> 05
+Per Bit Margin | QuestionId 0xC50: Access Level 09 -> 05
+Training Result Offset Config | QuestionId 0xC51: Access Level 09 -> 05
+Offset TxDq Timing | QuestionId 0xC52: Access Level 09 -> 05
+Offset TxVref | QuestionId 0xC53: Access Level 09 -> 05
+Offset RxDq Timing | QuestionId 0xC54: Access Level 09 -> 05
+Offset RxVref | QuestionId 0xC55: Access Level 09 -> 05
+Offset CMD Timing | QuestionId 0xC56: Access Level 09 -> 05
+Offset CMDVref | QuestionId 0xC57: Access Level 09 -> 05
+Offset CTLAll | QuestionId 0xC58: Access Level 09 -> 05
+Attempt Fast Boot | QuestionId 0xC59: Access Level 09 -> 05
+Attempt Fast Cold Boot | QuestionId 0xC5A: Access Level 09 -> 05
+MemTest On Fast Boot | QuestionId 0xC5B: Access Level 09 -> 05
+RMT On Cold Fast Boot | QuestionId 0xC5C: Access Level 09 -> 05
+BDAT | QuestionId 0xC5D: Access Level 09 -> 05
+Data Scrambling | QuestionId 0xC5E: Access Level 09 -> 05
+Allow SBE during training | QuestionId 0xC5F: Access Level 09 -> 05
+WR CRC feature Control | QuestionId 0xC60: Access Level 09 -> 05
+Platform type input for SPD page selection. | QuestionId 0xC61: Access Level 09 -> 05
+CECC WA Control | QuestionId 0xC62: Access Level 09 -> 05
+CAP ERR FLOW feature Control | QuestionId 0xC63: Access Level 09 -> 05
+Scrambling Seed Low | QuestionId 0xC64: Access Level 09 -> 05
+Scrambling Seed High | QuestionId 0xC65: Access Level 09 -> 05
+Enable ADR | QuestionId 0xC66: Access Level 09 -> 05
+Adr data save mode | QuestionId 0xC67: Access Level 09 -> 05
+Check PCH_PM_STS | QuestionId 0xC68: Access Level 09 -> 05
+Check PlatformDetectADR | QuestionId 0xC69: Access Level 09 -> 05
+Custom Refresh Enable | QuestionId 0xC6A: Access Level 09 -> 05
+Custom Refresh Rate | QuestionId 0xC6B: Access Level 09 -> 05
+Refresh Options | QuestionId 0xC6C: Access Level 09 -> 05
+MC BGF threshold | QuestionId 0xC6D: Access Level 09 -> 05
+DLL Reset Test | QuestionId 0xC6E: Access Level 09 -> 05
+MC ODT Mode | QuestionId 0xC6F: Access Level 09 -> 05
+Opp read during WMM | QuestionId 0xC70: Access Level 09 -> 05
+Normal Operation Duration | QuestionId 0xC71: Access Level 09 -> 05
+Number of Sparing Transaction | QuestionId 0xC72: Access Level 09 -> 05
+PSMI Support | QuestionId 0xC73: Access Level 09 -> 05
+C/A Parity Enable | QuestionId 0xC74: Access Level 09 -> 05
+SMB Clock Frequency | QuestionId 0xC75: Access Level 09 -> 05
+Memory Topology | QuestionId 0xC76: Access Level 01 -> 05
+Memory Thermal | QuestionId 0xC77: Access Level 01 -> 05
+Page Policy | QuestionId 0xC78: Access Level 01 -> 05
+Memory Training | QuestionId 0xC79: Access Level 01 -> 05
+Memory Map | QuestionId 0xC7A: Access Level 01 -> 05
+Memory RAS Configuration | QuestionId 0xC7B: Access Level 01 -> 05
+DIMM Rank Enable Mask | QuestionId 0xC7C: Access Level 09 -> 05
+Socket 0 Channel 0 Rank Enable BitMask | QuestionId 0xC7D: Access Level 09 -> 05
+Socket 0 Channel 1 Rank Enable BitMask | QuestionId 0xC7E: Access Level 09 -> 05
+Socket 0 Channel 2 Rank Enable BitMask | QuestionId 0xC7F: Access Level 09 -> 05
+Socket 0 Channel 3 Rank Enable BitMask | QuestionId 0xC80: Access Level 09 -> 05
+Socket 1 Channel 0 Rank Enable BitMask | QuestionId 0xC81: Access Level 09 -> 05
+Socket 1 Channel 1 Rank Enable BitMask | QuestionId 0xC82: Access Level 09 -> 05
+Socket 1 Channel 2 Rank Enable BitMask | QuestionId 0xC83: Access Level 09 -> 05
+Socket 1 Channel 3 Rank Enable BitMask | QuestionId 0xC84: Access Level 09 -> 05
+Socket 2 Channel 0 Rank Enable BitMask | QuestionId 0xC85: Access Level 09 -> 05
+Socket 2 Channel 1 Rank Enable BitMask | QuestionId 0xC86: Access Level 09 -> 05
+Socket 2 Channel 2 Rank Enable BitMask | QuestionId 0xC87: Access Level 09 -> 05
+Socket 2 Channel 3 Rank Enable BitMask | QuestionId 0xC88: Access Level 09 -> 05
+Socket 3 Channel 0 Rank Enable BitMask | QuestionId 0xC89: Access Level 09 -> 05
+Socket 3 Channel 1 Rank Enable BitMask | QuestionId 0xC8A: Access Level 09 -> 05
+Socket 3 Channel 2 Rank Enable BitMask | QuestionId 0xC8B: Access Level 09 -> 05
+Socket 3 Channel 3 Rank Enable BitMask | QuestionId 0xC8C: Access Level 09 -> 05
+xTPR | QuestionId 0xCE6: Failsafe 01 -> 00
+xTPR | QuestionId 0xCE6: Optimal 01 -> 00
+Enable SMX | QuestionId 0xCE9: Failsafe 00 -> 01
+Enable SMX | QuestionId 0xCE9: Optimal 00 -> 01
+X2APIC | QuestionId 0xCF7: Failsafe 00 -> 01
+X2APIC | QuestionId 0xCF7: Optimal 00 -> 01
+SMM Save State | QuestionId 0xCFF: Failsafe 00 -> 01
+SMM Save State | QuestionId 0xCFF: Optimal 00 -> 01
+Targeted Smi | QuestionId 0xD00: Failsafe 00 -> 01
+Targeted Smi | QuestionId 0xD00: Optimal 00 -> 01
+
+SATA: 
+- Enabled Hot Plug sSATA + SATA
+- SATA + sSATA AHCI LPM  Enabled
+CPU:
+- Enabled xTPR
+- Enabled SMX
+- Enabled X2APIC
+- Enabled SMM Save State
+- Enabled TargetedSMI
+RAM:
+- Fully Unlocked options available
+Other:
+- SLIC Enabled
+- Enabled WoL
+- Updated Strings & Help strings
+- Updated Rev & build date
