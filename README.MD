@@ -99,10 +99,10 @@ Note / Other (not related to ROM file itself) :
 - PCH thermal monitoring
 - Xeon M-FLASH/Save&Exit in UEFI
 
-### Know bugs / not tested :
+### Know bugs / not tested / patched :
 
-- Intel AMT not tested (Not tested. Seems legit as this is not an server chipset)
-- ~~Xeon bug in UEFI/BIOS~~ **Patched in 0.3.7 thanks to Sweet_Kitten**
+- ~~Intel AMT not tested (Not tested. Seems legit as this is not an server chipset)~~ Intel MEBx / AMT Not working at all, even after using the 5M ME FW.
+- ~~Xeon bug in UEFI/BIOS~~ **Patched in 0.3.7 thanks to Sweet_Kitten (This mean you'll can flash newer BIOSes using M-FLASH without swapping CPU for a core i7. Using Xeon CPU are now supported)**
 - you tell me  (lol)
 
 
@@ -315,7 +315,7 @@ NOTE: New screenshots added to this README.MD are from this version
 ### Version 0.4.3
 
 *based on 0.4.1*
-- Updated Intel ME FW from 9.1.37.1002 to 9.1.40.1000 (no more USB boot bug AFAIK)
+- Updated Intel ME FW from 9.1.37.1002 to 9.1.40.1000 (no more USB boot bug AFAIK) (still 1.5M SKU FW version)
 - Fixed some Intel ME String in RC Setup
 - Enabled Ram Power Management
 - Disabled "Lock Chipset" in IntelRCSetup -> Processor Configuration
