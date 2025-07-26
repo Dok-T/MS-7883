@@ -304,7 +304,8 @@ NOTE: New screenshots added to this README.MD are from this version
 
 *Based on 0.4.1*
 - tried to use 5M SKU version of Intel ME FW. (9.1.45.3000) for testing and trying to make REG ECC working, but no success. Plus, using this Intel ME FW make impossible to boot from USB (instant reboot, but POSTING and booting to UEFI was OK)
-Not releasing for obvious reasons
+
+- Not releasing for obvious reasons
 
 ### Version 0.4.3
 
