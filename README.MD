@@ -62,7 +62,7 @@ If you see a bug / would like to add something / forgot to tell here what I modd
 
 If you can test crossflashing, please report it to me if you successfully flashed this bios into your board.
 
-`MSI X99 Carbon Godlike - YES you CAN
+```MSI X99 Carbon Godlike - YES you CAN
 
 Just successfully did this myself after M-Flash kept giving me the "Warning: the BIOS you selected is not for this MB" error AND wouldn't even detect my BIOS file. This typically happens with modded BIOS files that M-Flash doesn't recognize.
 
@@ -73,7 +73,7 @@ What you need:
     USB drive (8GB+)
 
     Rufus
-
+    
     AFUDOS utility (AMI Firmware Update tool)
 
     Your BIOS file
@@ -96,7 +96,8 @@ The magic is the /X flag - it means "Don't Check ROM ID" which bypasses the comp
 
 ⚠️ Standard warnings apply - know what you're doing, stable power, etc. But if you're confident the BIOS is actually compatible (like with modded BIOS files), this works perfectly.
 
-Just flashed my DokT BIOS mod successfully using this method. M-Flash refused it and couldn't even see the file, but AFUDOS with /X said "I don't care about your warnings" and flashed it perfectly.`
+Just flashed my DokT BIOS mod successfully using this method. M-Flash refused it and couldn't even see the file, but AFUDOS with /X said "I don't care about your warnings" and flashed it perfectly.
+```
 
 
 
