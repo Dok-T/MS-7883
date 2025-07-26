@@ -45,6 +45,10 @@ Since the 0.3.7 I made, i use this version 24/7 in my server with PCIe bifurcati
 HUGE thanks to Sweet_Kitten (https://github.com/Maxinator500 and https://winraid.level1techs.com/u/Sweet_Kitten/summary)
 Thanks to him, this project is now finished and completed, and thanks to the greatest community at Win-Raid forum!
 
+## Cross Flashing
+
+
+
 ## Main features 
 
 The last release is the version 0.3.7.
@@ -52,10 +56,48 @@ If you see a bug / would like to add something / forgot to tell here what I modd
 
 ## Crossflashing / Other boards compatible with this BIOS Mod:
 
-- MSI X99A GODLIKE Carbon (to be confirmed, should be 100% compatible)
+- MSI X99A GODLIKE Carbon ~~(to be confirmed, should be 100% compatible)~~ Working (thanks to codeyoc / https://www.reddit.com/r/MSI_Gaming/comments/1cicehe/comment/mys10e4/?context=3 )
+
 - MSI X99A-SLI (booted, no bricked, waiting more for more tests) (thanks to jncwinner / https://winraid.level1techs.com/t/request-unlock-intelrcsetup-in-msi-x99a-sli/37317/25?u=dokt )
 
 If you can test crossflashing, please report it to me if you successfully flashed this bios into your board.
+
+`MSI X99 Carbon Godlike - YES you CAN
+
+Just successfully did this myself after M-Flash kept giving me the "Warning: the BIOS you selected is not for this MB" error AND wouldn't even detect my BIOS file. This typically happens with modded BIOS files that M-Flash doesn't recognize.
+
+Solution: FreeDOS + AFUDOS with bypass flag
+
+What you need:
+
+    USB drive (8GB+)
+
+    Rufus
+
+    AFUDOS utility (AMI Firmware Update tool)
+
+    Your BIOS file
+
+Steps:
+
+    Create FreeDOS bootable USB with Rufus
+
+    Download AFUDOS (search "AMI Firmware Update Utility")
+
+    Copy AFUDOS.exe and your BIOS file to USB root
+
+    Rename BIOS file to something simple like "BIOS.ROM" (DOS doesn't like complex filenames)
+
+    Boot from USB to FreeDOS
+
+    Run command: AFUDOS BIOS.ROM /X
+
+The magic is the /X flag - it means "Don't Check ROM ID" which bypasses the compatibility check that M-Flash uses.
+
+⚠️ Standard warnings apply - know what you're doing, stable power, etc. But if you're confident the BIOS is actually compatible (like with modded BIOS files), this works perfectly.
+
+Just flashed my DokT BIOS mod successfully using this method. M-Flash refused it and couldn't even see the file, but AFUDOS with /X said "I don't care about your warnings" and flashed it perfectly.`
+
 
 
 ### Patchs / Features added:
