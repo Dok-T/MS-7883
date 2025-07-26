@@ -300,6 +300,23 @@ NOTE: New screenshots added to this README.MD are from this version
 - ✅ **Updated BIOS Revision & Build Date**  
   Clear versioning for the modified BIOS.
 
+### Version 0.4.2
+
+*Based on 0.4.1*
+- tried to use 5M SKU version of Intel ME FW. (9.1.45.3000) for testing and trying to make REG ECC working, but no success. Plus, using this Intel ME FW make impossible to boot from USB (instant reboot, but POSTING and booting to UEFI was OK)
+Not releasing for obvious reasons
+
+### Version 0.4.3
+
+*based on 0.4.1*
+- Updated Intel ME FW from 9.1.37.1002 to 9.1.40.1000 (no more USB boot bug AFAIK)
+- Fixed some Intel ME String in RC Setup
+- Enabled Ram Power Management
+- Disabled "Lock Chipset" in IntelRCSetup -> Processor Configuration
+- Disabled SecureBoot by default (you still can enable it later, usefull when rebooting a linux server and avoiding multiple reboots into UEFI for disabling it)
+- Enabled PSMI
+- small fixes
+
 
 ##
 
