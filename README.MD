@@ -8,6 +8,13 @@ The MSI MS-7883 (X99A GODLIKE 2011-3) BIOS Mod project aims to improve the funct
 
 WinRaid Level1Techs Original Post: https://winraid.level1techs.com/t/offer-msi-x99a-godlike-gaming-rev-1-0-1-1-bios-mod-pcie-biffurcation/101333
 
+## Cross flash reports
+
+You can see if your motherboard is compatible by crossflashing it using external EEPROM programmer, or flashrom under linux.
+
+- X99A GAMING 9 ACK (https://github.com/Dok-T/MS-7883/issues/7)
+    Reported as working, but without any further informations (such as WiFi, PXE, SATA, PCIE, etc)
+
 **Update: 07/26/2025**
 
 ## I can sadly confirm that board doesn't support ECC "mode" at all, but can accept ECC Reg as I previously listed here.
